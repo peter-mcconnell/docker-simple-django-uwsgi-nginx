@@ -23,7 +23,7 @@ Note: this assumes you are familiar with [Docker](https://www.docker.io/)
 
 
 ##'SSH into the box'
-Sometimes it's useful to hop in and have a look, which is really simple to do. Simply run `sudo docker run -i -t dockerphpnginx /bin/bash`
+Sometimes it's useful to hop in and have a look, which is really simple to do. Simply run `sudo docker run -i -t docker-uwsgi-nginx /bin/bash`
 
 
 ##Useful Docker Commands (use with care)
