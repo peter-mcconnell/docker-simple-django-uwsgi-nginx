@@ -1,5 +1,5 @@
-docker-django-nginx
-===================
+docker-django-uwsgi-nginx
+=========================
 
 A Docker build that spins up a python/uwsgi/nginx instance.
 
