@@ -29,10 +29,9 @@ ADD ./app /var/www/app
 RUN ln -s /ops/supervisord.conf /etc/supervisord.conf
 RUN rm /etc/nginx/sites-available/default && ln -sf /ops/vhost.conf /etc/nginx/sites-enabled/default
 RUN chown -R www-data /var/www/app
-
-# rev er up
 RUN chmod +x /ops/run.sh
 
+# rev er up
 CMD /ops/run.sh
 
 # expose port(s)
