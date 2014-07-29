@@ -8,10 +8,10 @@ RUN ln -sf /bin/true /sbin/initctl
 # no tty
 ENV DEBIAN_FRONTEND noninteractive
 
-# Get up to date
+# get up to date
 RUN apt-get update --fix-missing
 
-# Installs
+# installs
 RUN apt-get install -y build-essential git 
 RUN apt-get install -y python python-dev python-setuptools
 RUN apt-get install -y nginx supervisor
